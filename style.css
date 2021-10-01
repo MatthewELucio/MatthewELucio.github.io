@@ -16,8 +16,13 @@ html{
 }
 
 body{
-
-    font: 50px, "Arvo";
+    font: 50px, "Montserrat";
     text-align: center;
+}
+
+div{
+    width: 200px;
+    word-break: break-all;
+    white-space: normal;
 }
 
