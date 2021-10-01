@@ -24,5 +24,7 @@ div{
     width: 200px;
     word-break: break-all;
     white-space: normal;
+    font: 50px, "Arvo";
+    text-align: center;
 }
 
