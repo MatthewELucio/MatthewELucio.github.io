@@ -21,11 +21,11 @@ body{
 }
 
 div{
-    width: 1000px;
+    width: 2000px;
     word-break: break-all;
     white-space: normal;
     font: "Arvo";
-    font-size: 20 px;
+    font-size: 30 px;
     text-align: center;
 }
 
