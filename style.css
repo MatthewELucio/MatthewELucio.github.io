@@ -14,12 +14,12 @@ html{
     font: 50px, "Arvo";
     text-align: center;
 }
-
+/*
 body{
     font: 50px, "Montserrat";
     text-align: center;
 }
-
+*/
 div{
     width: 2000px;
     word-break: break-all;
