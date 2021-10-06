@@ -24,9 +24,9 @@ div{
     width: 1000px;
     word-break: break-all;
     white-space: normal;
-    font: 40px, "Arvo";
-    font-size: 50 px;
+    font: 40px, "Merriweather";
+    font-size: 30 px;
     text-align: center;
-    left: 100px;
+    left: 200px;
 }
 
