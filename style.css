@@ -21,7 +21,8 @@ div{
     width: 1000px;
     word-break: break-all;
     white-space: normal;
-    font: 40pt, "Merriweather";
+    font: "Merriweather";
+    font-size: 40pt;
     text-align: center;
     left: 200px;
 }
