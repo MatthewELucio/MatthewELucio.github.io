@@ -9,7 +9,7 @@ h1{
 }
 
 html{
-    height: 2000px;
+    height: 1000px;
     background: rgb(2,0,36);
     background: linear-gradient(#d35959, #949be4);
 }
@@ -20,7 +20,7 @@ body{
 }
 */
 div{
-    width: 690px;
+    width: 710px;
     font: "Arvo";
     font-size: 15pt;
     text-align: center;
