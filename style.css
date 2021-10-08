@@ -39,18 +39,18 @@ button{
     text-decoration: none;
     outline: none;
     color: #fff;
-    background-color: #87CEEB;
+    background-color: #007fff;
     border: none;
     border-radius: 10px;
     box-shadow: 0 5px #999;
 }
 
 .button:hover {
-    background-color: #30ac13;
+    background-color: #87CEEB;
 }    
 
 .button:active {
-  background-color: #30ac13;
+  background-color: #87CEEB;
   box-shadow: 0 2px #666;
   transform: translateY(4px);
 }
