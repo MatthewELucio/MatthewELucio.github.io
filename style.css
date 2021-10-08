@@ -45,10 +45,12 @@ button{
     box-shadow: 0 5px #999;
 }
 
-.button:hover {background-color: #3e8e41}
+.button:hover {
+    background-color: #30ac13;
+}    
 
 .button:active {
-  background-color: #3e8e41;
+  background-color: #30ac13;
   box-shadow: 0 2px #666;
   transform: translateY(4px);
 }
