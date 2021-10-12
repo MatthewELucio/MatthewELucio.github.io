@@ -9,28 +9,35 @@
     <h1>Senior Research Project</h1>
     <link rel="stylesheet" href="style.css">
     <div>
-        <iframe id="ytVideo" width="560" height="315" src="https://www.youtube.com/embed/lLNFolBYYp4" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+        <iframe id="ytVideo" width="1000" height="500" src="https://www.youtube.com/embed/lLNFolBYYp4" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
     </div>
-
-    <!-- <p>Hello! Welcome to my website! This was created as a user interface to demonstrate my TJHSST computer systems lab research project for the 2021-2022 school year. I am researching computer vision and machine learning on marching band drill. I hope you enjoy! -Matthew Lucio</p> -->
-    <!-- <div> test: Hello! Welcome to my website! This was created as a user interface to demonstrate my TJHSST computer systems lab research project for the 2021-2022 school year. I am researching computer vision and machine learning on marching band drill. I hope you enjoy! -Matthew Lucio </div> -->
     <div id="paragraph"> Hello! Welcome to my website! This was created as a user interface to demonstrate my TJHSST computer systems lab research project for the 2021-2022 school year. I am researching computer vision and machine learning on marching band drill. Select a
         button to choose a youtube video. I hope you enjoy!<br></div>
     <div>-Matthew Lucio</div>
     <div id="wrapper">
-        <button id="button" type="button">Original</button>
+        <button id="original_button" type="button">Original</button>
     </div>
     <script type="text/javascript">
-        document.getElementById("button").onclick = function() {
+        document.getElementById("original_button").onclick = function() {
             document.getElementById('ytVideo').src = "https://www.youtube.com/embed/4xl3JSXg7UY";
         };
     </script>
     <div id="wrapper">
-        <button type="button">Marchers</button>
+        <button type="marchers_button">Marchers</button>
     </div>
+    <script type="text/javascript">
+        document.getElementById("marchers_button").onclick = function() {
+            document.getElementById('ytVideo').src = "https://www.youtube.com/embed/DNe0ZUD19EE";
+        };
+    </script>
     <div id="wrapper">
-        <button type="button">Lines</button>
+        <button type="lines_button">Lines</button>
     </div>
+    <script type="text/javascript">
+        document.getElementById("lines_button").onclick = function() {
+            document.getElementById('ytVideo').src = "https://www.youtube.com/embed/o1B2Gk0kD7c";
+        };
+    </script>
 </body>
 
 </html>
