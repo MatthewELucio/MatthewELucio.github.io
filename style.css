@@ -14,14 +14,6 @@ html {
     background: linear-gradient(to left top, #d35959, #949be4) fixed;
 }
 
-
-/*
-body{
-    font: 50px, "Montserrat";
-    text-align: center;
-}
-*/
-
 div {
     width: 800px;
     font: "Arvo";
@@ -71,4 +63,9 @@ button:active {
     display: flex;
     align-items: center;
     justify-content: center;
+}
+
+iframe {
+    display: block;
+    margin: 0 auto;
 }
