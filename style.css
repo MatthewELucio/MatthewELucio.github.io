@@ -64,8 +64,3 @@ button:active {
     align-items: center;
     justify-content: center;
 }
-
-iframe {
-    display: block;
-    margin: 0 auto;
-}
