@@ -61,6 +61,7 @@ button:active {
     height: 80px;
     /*border: 1px solid black;*/
     display: flex;
+    text-align: center;
     align-items: center;
     justify-content: center;
 }
