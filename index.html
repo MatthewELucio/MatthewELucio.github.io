@@ -46,19 +46,27 @@
 </html>
 -->
 
-<!doctype html>
-
+<!DOCTYPE html>
+<html>
 
 <head>
-    <title>Test</title>
-    <meta charset=utf-8> </head>
+</head>
 
 <body>
-    <h1>My Website</h1>
-    <form action="/my-link/">
-        <input type="submit" value="Click me" />
-    </form>
+    <input type="button" id='script' name="scriptbutton" value=" Run Script " onclick="goPython()">
 
-    <button> <a href="/my-link/">Click me</a></button>
+    <script src="http://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
 
+    <script>
+        function goPython() {
+            $.ajax({
+                url: "server.py",
+                context: document.body
+            }).done(function() {
+                alert('finished python script');;
+            });
+        }
+    </script>
 </body>
+
+</html>
