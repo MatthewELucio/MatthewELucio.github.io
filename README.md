@@ -1,5 +1,23 @@
 ## Welcome to my Website!
 
-This was created as a user interface to demonstrate my TJHSST computer systems lab research project for the 2021-2022 school year. I am researching computer vision and machine learning on marching band drill. I hope you enjoy! -Matthew Lucio
+Updates/Plan:
 
-The link is here: https://matthewelucio.github.io/
+CS:
+Java
+Python
+C
+x86-64 assembly
+HTML
+CSS
+JS
+React
+SQL
+
+Working Out:
+pull from hevy api
+
+Running:
+pull from strava api
+
+Reading:
+Pull books read from goodreads api
